@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf0bf5c4-5dc9-46fe-aae5-56175a367892" name="Changes" comment="Not working (yet)&#10;Unversioned files">
-      <change afterPath="$PROJECT_DIR$/api-comparison/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-api/web2/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gRPC_REST_GraphQL.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-comparison/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/src/main/java/com/example/rest_api/RestApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/rest_api/RestApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/src/main/java/com/example/rest_api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/rest_api/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-comparison/api-comparison.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +76,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.start.executor": "Run",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33678162",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
@@ -104,7 +94,7 @@
       <recent name="D:\Projects\gRPC_REST_GraphQL\grpc-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RestApiApplication">
+  <component name="RunManager" selected="Application.RestApiApplication">
     <configuration name="RestApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.rest_api.RestApiApplication" />
       <module name="gRPC_REST_GraphQL" />
@@ -149,7 +139,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RestApiApplication" />
         <item itemvalue="Application.RestApiApplication" />
         <item itemvalue="npm.start" />
       </list>
