@@ -19,23 +19,21 @@ const GET_DATA = gql`
   styleUrl: 'dashboard.component.css'
 })
 export class DashboardComponent implements OnInit {
-  data: any;
-  message: string = ""
+  restData: any;
+  graphqlData: any;
 
   // constructor(private apiService: ApiService, private apollo: Apollo) {}
   constructor(private apiService: ApiService) {}
 
   ngOnInit() {
     // REST
-    this.apiService.getData().subscribe(response => {
-      this.data = response;
+    this.apiService.getRestData().subscribe(response => {
+      this.restData = response;
     });
 
     // GraphQL
-    // this.apollo.watchQuery<any>({
-    //   query: GET_DATA,
-    // }).valueChanges.subscribe(({ data }) => {
-    //   this.message = data.getData().message;
-    // })
+    this.apiService.getGraphQLData().subscribe(response => {
+      this.graphqlData = response;
+    })
   }
 }

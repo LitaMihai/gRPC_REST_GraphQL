@@ -12,7 +12,7 @@ import java.util.Map;
 @CrossOrigin(origins = "http://localhost")
 public class UserController {
 
-    @GetMapping("/data")
+    @GetMapping("/rest")
     public ResponseEntity<Map<String, String>> getTestData() {
         Map<String, String> response = new HashMap<>();
         response.put("message", "Hello from backend!");

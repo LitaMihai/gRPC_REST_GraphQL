@@ -5,27 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf0bf5c4-5dc9-46fe-aae5-56175a367892" name="Changes" comment="Modified project structure to include also the angular module and updated .gitignore">
-      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-comparison/src/app/graphql.provider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-comparison/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api-comparison/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-comparison/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/app.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-comparison/src/app/components/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/components/dashboard/dashboard.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-comparison/src/app/components/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/components/dashboard/dashboard.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-comparison/src/app/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/services/api.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-comparison/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/environments/environment.prod.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-comparison/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/UserResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/schema.graphqls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-api/src/main/java/com/example/grpc_api/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-api/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-api/user.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/src/main/java/com/example/rest_api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/rest_api/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +45,12 @@
     &quot;assignee&quot;: &quot;LitaMihai&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:LitaMihai/gRPC_REST_GraphQL.git&quot;,
-    &quot;accountId&quot;: &quot;56d85e2c-85dd-40ba-867f-33c949b8b01b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LitaMihai/gRPC_REST_GraphQL.git",
+    "accountId": "606a11c3-8d96-41f7-b796-d1d655799d45"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/rest-api/src/main/java/com/example/rest_api/UserController.java" root0="SKIP_INSPECTION" />
   </component>
@@ -105,7 +101,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33678162",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/mihailita/Projects/gRPC_REST_GraphQL/api-comparison/node_modules/typescript/lib",
+    "ts.external.directory.path": "D:\\Projects\\gRPC_REST_GraphQL\\api-comparison\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -144,6 +140,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphqlApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="graphql-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.graphql_api.GraphqlApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,6 +216,7 @@
       <workItem from="1741869338222" duration="311000" />
       <workItem from="1741869664531" duration="32000" />
       <workItem from="1741891451763" duration="3473000" />
+      <workItem from="1742397559779" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="Not working (yet)">
       <option name="closed" value="true" />
