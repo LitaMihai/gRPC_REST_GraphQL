@@ -4,17 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf0bf5c4-5dc9-46fe-aae5-56175a367892" name="Changes" comment="Not working (yet)&#10;Unversioned files">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-comparison/api-comparison.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cf0bf5c4-5dc9-46fe-aae5-56175a367892" name="Changes" comment="Modified project structure to include also the angular module and updated .gitignore">
+      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql-api/src/main/resources/graphql/schema.graphqls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/src/app/components/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/components/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/src/app/components/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/components/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/src/app/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/app/services/api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-comparison/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-comparison/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/UserResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api/schema.graphqls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-api/src/main/java/com/example/grpc_api/UserServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,8 +51,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LitaMihai/gRPC_REST_GraphQL.git&quot;,
-    &quot;accountId&quot;: &quot;606a11c3-8d96-41f7-b796-d1d655799d45&quot;
+    &quot;url&quot;: &quot;git@github.com:LitaMihai/gRPC_REST_GraphQL.git&quot;,
+    &quot;accountId&quot;: &quot;56d85e2c-85dd-40ba-867f-33c949b8b01b&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -62,6 +86,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.GraphqlApiApplication.executor": "Run",
     "Application.RestApiApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,7 +94,7 @@
     "Spring Boot.RestApiApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/gRPC_REST_GraphQL/api-comparison",
+    "last_opened_file_path": "/Users/mihailita/Projects/gRPC_REST_GraphQL/graphql-api/src/main/java/com/example/graphql_api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,13 +104,15 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33678162",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "ts.external.directory.path": "D:\\Programs\\JetBrains\\IntelliJ IDEA 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/mihailita/Projects/gRPC_REST_GraphQL/api-comparison/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/graphql-api/src/main/java/com/example/graphql_api" />
+      <recent name="$PROJECT_DIR$/graphql-api/src/main/resources" />
       <recent name="D:\Projects\gRPC_REST_GraphQL\api-comparison" />
       <recent name="D:\Projects\gRPC_REST_GraphQL\rest-api" />
       <recent name="D:\Projects\gRPC_REST_GraphQL\grpc-api" />
@@ -94,7 +121,20 @@
       <recent name="D:\Projects\gRPC_REST_GraphQL\grpc-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RestApiApplication">
+  <component name="RunManager" selected="Application.GraphqlApiApplication">
+    <configuration name="GraphqlApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.graphql_api.GraphqlApiApplication" />
+      <module name="graphql-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.graphql_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.rest_api.RestApiApplication" />
       <module name="gRPC_REST_GraphQL" />
@@ -139,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphqlApiApplication" />
         <item itemvalue="Application.RestApiApplication" />
         <item itemvalue="npm.start" />
       </list>
@@ -198,10 +239,22 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.graphqls" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Not working (yet)" />
     <MESSAGE value="Not working (yet)&#10;Unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Not working (yet)&#10;Unversioned files" />
+    <MESSAGE value="Modified project structure to include also the angular module and updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified project structure to include also the angular module and updated .gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

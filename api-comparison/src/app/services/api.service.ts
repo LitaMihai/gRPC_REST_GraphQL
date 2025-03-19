@@ -10,6 +10,6 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   getData(): Observable<any> {
-    return this.http.get(`${environment.apiUrl}/data`);
+    return this.http.get(`${environment.restApiUrl}/data`);
   }
 }
