@@ -39,6 +39,6 @@ export class ApiService {
         uri: this.fullGraphqlUrl,
       },
     })
-      .valueChanges.pipe(map((result: any) => result.data.books));
+      .valueChanges.pipe(map((result: any) => result.data.bookById));
   }
 }

@@ -21,6 +21,7 @@ const GET_DATA = gql`
 export class DashboardComponent implements OnInit {
   restData: any;
   graphqlData: any;
+  grpcData:any;
 
   // constructor(private apiService: ApiService, private apollo: Apollo) {}
   constructor(private apiService: ApiService) {}
@@ -34,6 +35,9 @@ export class DashboardComponent implements OnInit {
     // GraphQL
     this.apiService.getGraphQLData().subscribe(response => {
       this.graphqlData = response;
+      console.log(response)
     })
+
+    // gRPC
   }
 }
