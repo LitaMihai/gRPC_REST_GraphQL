@@ -1,16 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ApiService } from '../../services/api.service';
-import {gql} from "@apollo/client";
-import {Apollo} from "apollo-angular";
-
-const GET_DATA = gql`
-  query {
-    getData {
-      message
-    }
-  }
-`;
 
 @Component({
   selector: 'app-dashboard',

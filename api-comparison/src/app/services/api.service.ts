@@ -8,10 +8,8 @@ import { Apollo, gql } from 'apollo-angular';
   providedIn: 'root'
 })
 export class ApiService {
-  private graphqlPath= "/graphql";
-  private restPath = "/rest";
-  private fullRestUrl = `${environment.restApiUrl}` + this.restPath;
-  private fullGraphqlUrl = `${environment.graphqlApiUrl}` + this.graphqlPath;
+  private fullRestUrl = `${environment.restApiUrl}` + "/books";
+  private fullGraphqlUrl = `${environment.graphqlApiUrl}` + "/graphql";
 
   constructor(private http: HttpClient, private apollo: Apollo) {}
 
@@ -22,16 +20,14 @@ export class ApiService {
   getGraphQLData(): Observable<any> {
     return this.apollo.watchQuery({
       query: gql`
-        query bookDetails {
-          bookById(id: "book-1") {
+        query {
+          getAllBooks {
             id
-            name
-            pageCount
-            author {
-              id
-              firstName
-              lastName
-            }
+            title
+            author
+            releaseDate
+            totalPages
+            genre
           }
         }
       `,
@@ -39,6 +35,6 @@ export class ApiService {
         uri: this.fullGraphqlUrl,
       },
     })
-      .valueChanges.pipe(map((result: any) => result.data.bookById));
+      .valueChanges.pipe(map((result: any) => result.data.getAllBooks));
   }
 }
